@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2px 4px #ddd;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+div#addBook {
+    width: 100vw;
+}
+
+button#displayFormBtn {
+    background-color: #e6e6e6;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0px auto;
+    display: block;
+}
+
+button#displayFormBtn:hover {
+    background-color: #bababa;
+    cursor: pointer;
+}
+
+form#addBookForm {
+    display: none;
+    width: 400px;
+    margin: 20px auto;
+    font-family: Arial,sans-serif;
+    font-size: 1.2rem;
+    font-weight:bold;
+    
+}
+
+div#formContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button#toggleLibraryBtn{
+    background-color: #e6e6e6;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px auto;
+    display: block;
+}
+
+button#toggleLibraryBtn:hover{
+    background-color: #bababa;
+    cursor: pointer;
+}
+
+div#library{
+    display: flex;
+    width: 93vw;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+div.book{
+    border-radius: 15px;
+    background-color: #bababa;
+    width: 30vw;
+    margin: 1vw;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1vw;
+}
+
+button.removeBookBtn{
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: auto;
+    display: block;
+}
